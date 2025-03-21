@@ -1,5 +1,5 @@
 body {
-    background-image: url('transformers wallpaper1.jpg');
+    background-image: url('images/transformers wallpaper1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,12 +10,30 @@ body {
 .personal-summary {
     font-family: "Times New Roman", Times, serif;  
     font-size: 1.4em;  
-    color: #418031;  
+    color: #403180;  
 }
 
 .progress {
     color: #da9b3d;  
     font-weight: bold;
+}
+
+.dark-theme {
+    color: #000000;  
+    background-color: #b0d252; 
+    display: inline;
+    padding: 2px 5px; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #b0d252; 
+}
+
+.accordion-body {
+    min-height: 500px; /* Altura mínima */
+    max-height: 700px; /* Altura máxima */
+    overflow-y: auto;  /* Agrega scroll si el contenido es muy grande */
+    transition: min-height max-height 0.3s ease-in-out;
 }
 
 .bad {
@@ -29,7 +47,7 @@ img {
 }
 
 .section-box {
-    background-color: rgb(176, 210, 82);
+    background-color: #b0d252;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
